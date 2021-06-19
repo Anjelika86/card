@@ -2,86 +2,93 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-.wrapper {
-  width: 300px;
-  display: inline-block;
-  box-shadow: 5px 5px 5px #5C71A8;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  font-family: sans-serif;
 
+body {
+  background: #6F7889;
+  padding: 100px;
 }
-.headers {
-  padding: 20px 0;
-  background-color: #E6EBEE;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px; 
-  font-size: 40px;
-  text-align: center;
-  font-weight: bold;
-}
-h1 {
+
+.wrapper {
+  
+  display: inline-block;
+  width: 300px;
+  border-radius: 20px;
   overflow: hidden;
-  text-overflow: ellipsis;
+  background-color: #393C45;
+  box-shadow: 5px 5px 5px #5C71A8;
+  font-family: sans-serif;
   
 }
+
+.header {
+  padding: 20px 0;
+  background-color: #E6EBEE; 
+  text-align: center;
+}
+
+h1 {
+  max-width: 300px;
+  font-size: 40px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: initial;
-  display: inline-block;
   object-position: center;
-  margin: 20px 75px 0 75px;
+  display: inline-block;
+  margin: 20px 75px;
   box-shadow: 3px 3px 3px #5C71A8;
 }
+
 .text {
   text-align: justify;
   padding: 20px;
-  
 }
+
 .number {
   display: inline-block;
-  padding: 20px;
+  width: 30%;
+  padding: 10px;
   text-align: center;
 }
-.p {
-  font-size: 20px;
+
+.p-number {
+  font-size: 24px;
   padding-bottom: 5px;
+  font-weight: bold;
  
 }
-.mains {
-  background-color: #393C45;
+.section-main {
   color: white;
 }
+
 .footers {
-  padding: 20px 0;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  background-color: #393C45;
-  
+  padding: 20px 0; 
+  text-align: center;
 }
 
 .btn {
   padding: 10px 20px;
   border-radius: 20px ;
-  border: 1px #393C45;
-  width: 105px;
+  border: none;
+  max-width: 105px;
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
-  display: inline-block;
-  margin-right: 20px;
- 
 }
+
 .btn1 {
-  margin-left: 40px;
-  margin-right: 20px;
   background-color: #4169E2;
   color: wheat;
-  
+}
+
+.btn2 {
+  margin-left: 20px;
 }
