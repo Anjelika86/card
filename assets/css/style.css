@@ -6,11 +6,12 @@
 
 body {
   background: #6F7889;
-  padding: 100px;
+  text-align: center;
+  margin-top: 30px;
+ 
 }
 
-.wrapper {
-  
+.card{
   display: inline-block;
   width: 300px;
   border-radius: 20px;
@@ -21,19 +22,24 @@ body {
   
 }
 
-.header {
-  padding: 20px 0;
+.name {
+  padding: 20px;
   background-color: #E6EBEE; 
-  text-align: center;
+  
 }
 
 h1 {
-  max-width: 300px;
+  text-align: center;
+  min-width: 80%;
   font-size: 40px;
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.section-main {
+  color: white;
+  padding: 20px;
 }
 
 .img {
@@ -42,35 +48,35 @@ h1 {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  display: inline-block;
-  margin: 20px 75px;
+  display: block;
+  margin: 0 auto;
   box-shadow: 3px 3px 3px #5C71A8;
 }
 
-.text {
-  text-align: justify;
+.personal-information {
   padding: 20px;
+  text-align: justify;
+  line-height: 1.2em;
+  
 }
-
-.number {
-  display: inline-block;
-  width: 30%;
-  padding: 10px;
+.statistics {
   text-align: center;
+
 }
+ .number {
+   display: inline-block;
+   width: 30%;
+} 
 
 .p-number {
   font-size: 24px;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
   font-weight: bold;
  
 }
-.section-main {
-  color: white;
-}
 
 .footers {
-  padding: 20px 0; 
+  padding: 20px; 
   text-align: center;
 }
 
@@ -78,7 +84,7 @@ h1 {
   padding: 10px 20px;
   border-radius: 20px ;
   border: none;
-  max-width: 105px;
+  max-width: 70%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -86,7 +92,7 @@ h1 {
 
 .btn1 {
   background-color: #4169E2;
-  color: wheat;
+  color: white;
 }
 
 .btn2 {
